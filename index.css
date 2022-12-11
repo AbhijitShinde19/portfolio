@@ -1,32 +1,53 @@
 *{
     margin: 0;
     padding: 0;
-}
+} 
 img{
-    width: 200px;
-    height: 200px;
+    width: 50%;
+    display: block;
     border: 2px;
     border-radius: 900px;
     padding: 15px;
+    margin: auto;
 }
-div{
+h1{
+    margin: auto;
+    text-align: center;
+}
+section{
     display: grid;
-    grid-template-columns: 3fr 9fr;
+    grid-template-columns: 4fr 8fr;
 }
 .menu{
     background-color: black;
     color: white;
-    position: fixed;
     height: 100%;
     display: block;
-    align-items: center;
+    
 }
 .hero{
-    background-color: antiquewhite;
-}
-.icons{
-    display: block;
+    background-color: rgb(185, 35, 35);
+    font-size: 50px;
     align-items: center;
     justify-content: center;
-   
+    display: flex;
+}
+.hero p{
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+div .icons{
+    display: flex;
+    font-size: 20px;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+ul li{
+    list-style-type: none;
+    font-size: 20px;
+    margin-bottom: 20px;
 }
