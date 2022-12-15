@@ -54,7 +54,7 @@ nav ul li{
 /* right side */
 .hero{
     /* background-image: linear-gradient( to top right, red, blue); */
-    background-image: url(/src/images/dp.jpg);
+    background-image: url(src/images/dp.jpg);
     background-attachment: fixed;
     background-size: cover;
 }
