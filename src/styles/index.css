@@ -72,10 +72,45 @@ div #home{
     margin-top: 25%;
     margin-bottom: 25%;
 }
+
+/* about section */
+h2,h3{
+    color: blue;
+}
 #about{
     background-color: white;
+    padding: 25px;
 }
 #about p{
-    font-size: 50px;
+    font-size: 25px;
     font-family: sans-serif;
+}
+.details{
+    display: grid;
+    grid-template-columns: 4fr 8fr;
+}
+.pic img{
+    width: 100%;
+    
+}
+.containt h3{
+    margin-left: 15px;
+}
+#about .containt div{
+    margin-left: 15px;
+    columns: 2;
+}
+.containt ul li{ 
+    font-size: 25px;
+    line-height: 55px;
+}
+
+/* resume section */
+#resume{
+    padding: 25px;
+    background-color: white;
+    font-size: 25px;
+}
+#resume .container{
+    columns: 2;
 }
